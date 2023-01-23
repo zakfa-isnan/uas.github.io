@@ -1,0 +1,39 @@
+.navbar {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    ;
+}
+
+.nav-link:hover{
+    background-color: grey;
+    opacity: 0.3;
+}
+
+.display-4 {
+    font-weight: bold;
+}
+
+.card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: 25px;
+    right: 4px;
+    opacity: 0.4;
+    font-size: 90px;
+}
+
+.card {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.row {
+   padding-top: 5rem;
+   margin-left: 1px;
+   margin-bottom: 10px;
+
+}
+
