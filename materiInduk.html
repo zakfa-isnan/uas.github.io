@@ -13,49 +13,82 @@
      <link rel="stylesheet" type="text/css" href="fontawesome-free-6.2.1-web/css/all.min.css"/>
   </head>
 
+   <!--Navbar-->
+   <body>
+    <nav class="navbar navbar-expand-lg bg-warning shadow fixed-top">
+      <div class="container">
+        <img src="gambar/logo2.png"  width="45" alt="logo">
+        <a class="navbar-brand"><b>MA AL-HIDAYAH</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i></i>DASHBOARD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Daftar Siswa.html"><i class="fa-solid fa-graduation-cap"></i>BIODATA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Jadwal Pelajaran.html"><i class="fa-solid fa-calendar-days"></i>JADWAL LATIHAN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Jadwal ujian.html"><i class="fa-solid fa-calendar-days"></i>AMBALAN</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-school"></i>
+                  MATERI
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="MATERI1.html">Sejarah Pramuka Dunia</a></li>
+                  <li><a class="dropdown-item" href="MATERI2.html">Sejarah Pramuka Indonesia</a></li>
+                  <li><a class="dropdown-item" href="MATERI3.html">Morse</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          </div>
+      </div>
+    </nav>
+
   <!--materi-->
   <div class="row">
     <div class="col">
     <h3>
-      <i class="fa-solid fa-house"></i>Materi</i><hr>
+      <i class="fa-solid fa-house"></i>MATERI</i><hr>
     </h3>
 
+    <table class="table table-success table-striped">
+      <tr>
+        <th scope="col">NO</th>
+        <th scope="col">MATERI</th>
+        <th scope="col">JUDUL</th>
+        <th scope="col">DETAIL</th>
+      </tr>
 
-    <div class="row text-white">
-      <div class="card bg-info" style="width: 10rem;">
-        <div class="card-body">
-          <div class="card-body-icon">
-            <i class="fa-solid fa-graduation-cap"></i>
-          </div>
-          <h5 class="card-title">Sejarah pramuka Dunia</h5>
-          <div class="display-4">1</div>
-          <a href="MATERI1.html"><p class="card-text text-white">Detail<i class="fas fa-angle-double-right ml-2"></i></p></a>
-        </div>
-      </div>
+      <tr>
+        <th scope="row">1</th>
+        <td>Materi 1</td>
+        <td>Sejarah Pramuka Dunia</td>
+        <td><a href="MATERI1.html">Lihat</a></td>
+      </tr>
 
-      <div class="row text-white">
-        <div class="card bg-info" style="width: 10rem;">
-          <div class="card-body">
-            <div class="card-body-icon">
-              <i class="fa-solid fa-graduation-cap"></i>
-            </div>
-            <h5 class="card-title">Sejarah pramuka Indonesia</h5>
-            <div class="display-4">1</div>
-            <a href="MATERI2.html"><p class="card-text text-white">Detail<i class="fas fa-angle-double-right ml-2"></i></p></a>
-          </div>
-        </div>
+    <tr>
+      <th scope="row">2</th>
+      <td>Materi 2</td>
+      <td>Sejarah Pramuka Indonesia</td>
+      <td><a href="MATERI2.html">Lihat</a></td>
+    </tr>
 
-        <div class="row text-white">
-            <div class="card bg-info" style="width: 10rem;">
-              <div class="card-body">
-                <div class="card-body-icon">
-                  <i class="fa-solid fa-graduation-cap"></i>
-                </div>
-                <h5 class="card-title">Morse</h5>
-                <div class="display-4">1</div>
-                <a href="MATERI3.html"><p class="card-text text-white">Detail<i class="fas fa-angle-double-right ml-2"></i></p></a>
-              </div>
-            </div>
+    <tr>
+      <th scope="row">2</th>
+      <td>Materi 2</td>
+      <td>Morse</td>
+      <td><a href="MATERI3.html">Lihat</a></td>
+    </tr>
+    </table>
 
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script type="text/javascript" src="java.js"></script>
